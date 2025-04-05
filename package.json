@@ -1,0 +1,17 @@
+{
+    "name": "markdown-to-html-converter",
+    "version": "1.0.0",
+    "description": "MarkdownファイルをHTMLに変換するCLIツール",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "marked": "^9.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.0",
+        "typescript": "^5.2.2"
+    }
+}
